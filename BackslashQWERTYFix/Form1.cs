@@ -21,7 +21,7 @@ namespace BackslashQWERTYFix
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Hotkey hk = new Hotkey();
+            hk = new Hotkey();
 
             hk.KeyCode = Keys.OemPipe;
             hk.Alt = true;
